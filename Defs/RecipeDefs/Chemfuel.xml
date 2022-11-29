@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>ConvertDNPMtoChemfuel</defName>
+		<label>Produce chemfuel</label>
+		<description>Use the refinery to convert Disgusting Nutrient Paste Meals into chemfuel.</description>
+		<jobString>Producing chemfuel</jobString>
+		<workAmount>800</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AA_DisgustingMealNutrientPaste</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AA_DisgustingMealNutrientPaste</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Chemfuel>25</Chemfuel>
+		</products>
+		<recipeUsers>
+			<li>BiofuelRefinery</li>
+		</recipeUsers>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+</Defs>

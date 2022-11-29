@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Convert Disgusting Nutrient Paste Meals to Chemfuel</name>
+	<author>UntouchedWagons</author>
+	<url></url>
+	<supportedVersions>
+        <li>1.4</li>
+	</supportedVersions>
+	<packageId>UntouchedWagons.CDNPM2C</packageId>
+	<description>
+	Allows you to convert Disgusting Nutrient Paste Meals to Chemfuel
+	</description>
+    <modDependencies>
+        <li>
+            <packageId>sarg.alphaanimals</packageId>
+            <displayName>Alpha Animals</displayName>
+            <downloadUrl>https://github.com/juanosarg/AlphaAnimals</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/1541721856</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>sarg.alphaanimals</li>
+    </loadAfter>
+</ModMetaData>
